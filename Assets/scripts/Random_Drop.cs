@@ -39,8 +39,18 @@ public class Random_Drop : MonoBehaviour
         }
         
         if (obj != null){
+            //生成したオブジェクトにコライダーを追加する
+            obj.AddComponent<BoxCollider2D>();
             obj.SetActive(true); //表示する
         }
 
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("OtherObject"))
+        {
+            Destroy(collision.gameObject); //他のオブジェクトに触れたら消える
+        }
     }
 }
