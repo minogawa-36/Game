@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Move_Bfore.unity
+    guid: fd3928d9f31ca5048a801520a75681ad
+  - enabled: 1
+    path: Assets/Scenes/Move_After.unity
+    guid: 1f0bae17236c9bd43af17623b075f5f0
+  - enabled: 1
+    path: Assets/Scenes/Random_item.unity
+    guid: c8c1f077042f56946a8b72cae368ebf6
+  - enabled: 1
+    path: Assets/Scenes/inventory.unity
+    guid: ede8a4d03aac07345b1e936ff5a0bb5d
   m_configObjects: {}
